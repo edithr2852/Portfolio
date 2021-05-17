@@ -1,5 +1,4 @@
 import React from "react";
-import { VscGithubInverted  } from "react-icons/all"
 
 function Contact() {
     return (
