@@ -24,8 +24,7 @@ function Home() {
         target="_blank"
         class="multi-button"
       >
-        <a href="Resume.pdf" download><button className="res-btn">Resume</button></a>
-      </a>
+        </a>  
     </>
   );
 }

@@ -101,9 +101,9 @@ function Work() {
               alt="flower"
             />
             <div>
-              <h5>Card 1</h5>
+              <h5>Portfolio App</h5>
               <p>
-                Edith's Portfolio is a website for my personal portfolio to showcase all my accomplishments thus far. Where you can also contact me and views all of my skills and abilities.
+                Portfolio is a website for my personal portfolio to showcase all my accomplishments thus far. Where you can also contact me and views all of my skills and abilities.
               </p>
             </div>
             <div>

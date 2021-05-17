@@ -1,28 +1,48 @@
 import React from "react";
-import { IoHome } from "react-icons/all"
+import { VscGithubInverted  } from "react-icons/all"
 
 export default function NavBar() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div>
-          <div class="navbar-nav">
-            <a href="/" class="nav-link icon">
+    <div class="page">
+      <nav class="page__menu menu">
+        <ul class="menu__list r-list">
+          <li  class="menu__group">
+            <a href="/" class="menu__link r-link text-underlined">
               Home
-            </a>
+            </a></li>
             &nbsp; | &nbsp;
-            <a href="/work" class="nav-link">
+            <li class="menu__group">
+            <a href="/work" class="menu__link r-link text-underlined">
               Work
             </a>
+            </li>
             &nbsp; | &nbsp;
-            <a href="/skills" class="nav-link">
+            <li class="menu__group">
+            <a href="/skills" class="menu__link r-link text-underlined">
               Skills
             </a>
+            </li>
             &nbsp; | &nbsp;
-            <a href="/contact" class="nav-link">
+            <li class="menu__group">
+            <a href="/contact" class="menu__link r-link text-underlined">
               Contact
             </a>
-          </div>
-        </div>
-    </nav>
+            </li>
+            &nbsp; | &nbsp;
+            <li class="menu__group">
+            <a href="Resume.pdf" download class="menu__link r-link text-underlined">
+              Resume
+            </a>
+            </li>
+            &nbsp; | &nbsp;
+            <li class="menu__group">
+            <a href="https://github.com/edithr2852" download class="menu__link r-link text-underlined" target="_blank">
+            <VscGithubInverted />   GITHUB
+            </a>
+            </li>
+
+        </ul>
+      </nav>
+    </div>
   );
 }

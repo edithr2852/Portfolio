@@ -16,7 +16,6 @@ function Contact() {
                 <button type='submit' >Send</button>
                 </div>
             </form>
-            <a href="https://github.com/edithr2852" className="gitlink"><VscGithubInverted /> GITHUB</a>
         </section>
         
       </>
