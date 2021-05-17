@@ -1,0 +1,31 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+.title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	color: mix(#fff, #e6ac7d, 85%);
+	font-size: 70px ;  
+	font-weight: 900;
+	text-shadow: 
+		-0.0075em 0.0075em 0 mix(#fff, #e9801e, 94%),
+		0.005em 0.005em 0 mix(#fff, #e9801e, 60%),
+		0.01em 0.01em 0 mix(#fff, #e9801e, 62%), 
+		0.015em 0.015em mix(#fff, #e9801e, 64%), 
+		0.02em 0.02em 0 mix(#fff, #e9801e, 66%), 
+		0.025em 0.025em 0 mix(#fff, #e9801e, 68%),
+		0.03em 0.03em 0 mix(#fff, #e9801e, 70%),
+		0.035em 0.035em 0 mix(#fff, #e9801e, 72%);
+}
+
